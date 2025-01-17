@@ -96,7 +96,7 @@ Animate.css - http://daneden.me/animate
 
 @keyframes bounceInDown {
     0% {
-        transform: translateY(-190px);
+        transform: translateY(190px);
         opacity: 0;
     }
     70% {
@@ -104,7 +104,7 @@ Animate.css - http://daneden.me/animate
         opacity: 1;
     }
     100% {
-        transform: translateY();
+        transform: translateY(100px);
     }
 }
 
