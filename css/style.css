@@ -2,20 +2,24 @@
 
 html {
     background-color: #000000;
-    color: #9a9797;
-    font: 12px/1.5 "Helvetica Neue", Arial;
+    color: #dcd0d0;
+    font: 12px "Helvetica Neue", Arial;
 }
 body {
-    margin: 10%;
+    margin-top: 7%; 
+    margin-left: 9%; 
+    margin-right: 9%;
+    margin-bottom: 9%; 
 }
+
 
 .avatar {
     float: left;
     margin: 0 40px 20px 0;
 }
     .avatar img {
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 230px;
+        max-height: 250px;
         border-radius: 125px;
     }
 
@@ -24,7 +28,7 @@ body {
     width: 600px;
 }
     .title {
-        font-size: 40px;
+        font-size: 50px;
         font-weight: normal;
         line-height: 1;
     }
@@ -66,56 +70,17 @@ ul, ol, dl {
     list-style-type: none;
 }
 a {
-    color: #8a9097;
+    color: #fcfdff;
     font-weight: bold;
 }
 a:hover, a:focus {
-    color: #95a4a9;
+    color: #ffffff;
     -webkit-transition: color 0.2s ease;
     -moz-transition: color 0.2s ease;
     -o-transition: color 0.2s ease;
     -ms-transition: color 0.2s ease;
     transition: color 0.2s ease;
 }
-
-
-
-
-/*
-Animate.css - http://daneden.me/animate
-
-*/
-.animated {
-    animation-fill-mode: both;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-}
-
-.animated.hinge {
-    animation-duration: 1s;
-}
-
-@keyframes bounceInDown {
-    0% {
-        transform: translateY(190px);
-        opacity: 0;
-    }
-    70% {
-        transform: translateY(15px);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(100px);
-    }
-}
-
-.bounceInDown {
-    animation-name: bounceInDown;
-}
-
-
-
-
 
 
 /*------------------------------------*\
